@@ -24,25 +24,67 @@
       <p> <strong>стоимость:</strong></p>
         <input type="range" min="0" max="15000">
         от до
-        <p>Сетка:</p>
-        <label>
-        <input type="radio" name="type-1" value="Адаптивная" checked> Адаптивная
+ 
+        <fieldset>
+            <legend>Сетка:</legend>
+            <ul>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="adaptive grid" id="filter-adaptive grid">
+                <label for="filter-adaptive grid" checked>Адаптивная</label>
+              </li>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="fixed grid" id="filter-fixed grid">
+                <label for="filter-fixed grid">Фиксированная</label>
+              </li>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="rubber grid" id="filter-rubber grid">
+                <label for="filter-rubber grid">Резиновая</label>
+              </li>
+            </ul>
+          </fieldset>    
+       <!-- <input type="radio" name="type-1" value="Адаптивная" checked> Адаптивная
       </label>
       <label>
         <input type="radio" name="type-2" value="Фиксированная">Фиксированная
       </label>
         <label>
         <input type="radio" name="type-3" value="Резиновая"> Резиновая
-      </label>
-          <p>Особенности</p>
-         <select name="variants" multiple>
-        <option value="Слайдер">Слайдер</option>
+      </label>-->
+          <fieldset>
+            <legend>Особенности:</legend>
+            <ul>
+         <select name="feauteres" multiple>
+           <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="slider" id="filter-slider"checked>
+                <label for="filter-slider">Слайдер</label>
+              </li>
+            <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="advantages" id="filter-advantages">
+                <label for="filter-advantages">Блок преимуществ</label>
+              </li>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="news" id="filter-news" checked>
+                <label for="filter-news">Новости</label>
+              </li>         
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="gallery" id="filter-gallery">
+                <label for="filter-gallery">Галерея</label>
+              </li>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="basket" id="filter-basket">
+                <label for="filter-basket">Корзина</label>
+              </li>
+           </ul>
+              </fieldset>
+       <!-- <option value="Слайдер">Слайдер</option>
           <option value="Блок преимуществ">Блок преимуществ</option>
           <option value="Новости">Новости</option>
            <option value="Галерея">Галерея</option>
-          <option value="Корзина">Корзина</option>
+          <option value="Корзина">Корзина</option>-->
            </select>
-         <button> Показать</button>
+          <button type="submit" class="filter-button button">Показать</button>
+        </form>
+      </section>
          <span> Сортировать:</span>
           ПО ЦЕНЕ
           ПО ТИПУ
