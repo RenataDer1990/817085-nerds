@@ -2,88 +2,80 @@
           <!DOCTYPE html>
 <html lang="ru">
     <head>
-        <meta charset="utf-8">
-        <title>NЁRDS DESIGN STUDIO</title>
-    </head>
-       <body>
-    <header class="page-header">
-      <div class="header-top">
-        <div class="header-logo">
-         <a class="header-logo" href="index.html"><img src="#" alt="NЁRDS DESIGN STUDIO" width="100" height="50"></a>
-        </div>
-        <ul class="main-nav">
+    <meta charset="utf-8">
+    <title>HTML Academy: Нёрдс</title>
+  </head>
+  <body>
+<header class="page-header">
+  <nav class="main-navigation">
+     <a class="main-header-logo">
+       <img src="img/nerds-logo.svg" alt="Nerds design studio" width="160" height="65">
+    </a>
+        <ul class="site-navigation">
           <li><a href="#">Студия</a></li>
           <li><a href="#">Клиенты</a></li>
-          <li><a href="#">Магазин</a></li>
+          <li><a href="nerds-catalog.psd">Магазин</a></li>
             <li><a href="#">Контакты</a></li>
         </ul>
-           <span>Корзина</span>
-        </div>
+    <ul class="basket">
+      <li><a href="#">Корзина</a></li>
+    </ul>
+  </nav>
+  </header>
         <h1>Магазин готовых шаблонов</h1>
-         </header>
-      <p> <strong>стоимость:</strong></p>
+         
+      <p> <strong>Cтоимость:</strong></p>
         <input type="range" min="0" max="15000">
         от до
- 
+ <section> 
+   <h2 class="visually-hidden">Выберите сетку и необходимые особенности Вашего сайта</h2>
         <fieldset>
             <legend>Сетка:</legend>
             <ul>
               <li class="filter-option">
-                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="adaptive grid" id="filter-adaptive grid" checked>
-                <label for="filter-adaptive grid">Адаптивная</label>
+                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="adaptive grid" id="filteradaptivegrid" checked>
+                <label for="filteradaptivegrid">Адаптивная</label>
               </li>
               <li class="filter-option">
-                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="fixed grid" id="filter-fixed grid">
-                <label for="filter-fixed grid">Фиксированная</label>
+                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="fixed grid" id="filterfixedgrid">
+                <label for="filterfixedgrid">Фиксированная</label>
               </li>
               <li class="filter-option">
-                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="rubber grid" id="filter-rubber grid">
-                <label for="filter-rubber grid">Резиновая</label>
+                <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="rubber grid" id="filterrubbergrid">
+                <label for="filterrubbergrid">Резиновая</label>
               </li>
             </ul>
-          </fieldset>    
-       <!-- <input type="radio" name="type-1" value="Адаптивная" checked> Адаптивная
-      </label>
-      <label>
-        <input type="radio" name="type-2" value="Фиксированная">Фиксированная
-      </label>
-        <label>
-        <input type="radio" name="type-3" value="Резиновая"> Резиновая
-      </label>-->
+          </fieldset>   
           <fieldset>
             <legend>Особенности:</legend>
-            <ul>
          <select name="feauteres" multiple>
+           <ul>
            <li class="filter-option">
-                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="slider" id="filter-slider"checked>
-                <label for="filter-slider">Слайдер</label>
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="slider" id="filterslider" checked>
+                <label for="filterslider">Слайдер</label>
               </li>
             <li class="filter-option">
-                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="advantages" id="filter-advantages">
-                <label for="filter-advantages">Блок преимуществ</label>
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="advantages" id="filteradvantages">
+                <label for="filteradvantages">Блок преимуществ</label>
               </li>
               <li class="filter-option">
-                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="news" id="filter-news" checked>
-                <label for="filter-news">Новости</label>
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="news" id="filternews" checked>
+                <label for="filternews">Новости</label>
               </li>         
               <li class="filter-option">
-                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="gallery" id="filter-gallery">
-                <label for="filter-gallery">Галерея</label>
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="gallery" id="filtergallery">
+                <label for="filtergallery">Галерея</label>
               </li>
               <li class="filter-option">
-                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="basket" id="filter-basket">
-                <label for="filter-basket">Корзина</label>
+                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="basket" id="filterbasket">
+                <label for="filterbasket">Корзина</label>
               </li>
            </ul>
-              </fieldset>
-       <!-- <option value="Слайдер">Слайдер</option>
-          <option value="Блок преимуществ">Блок преимуществ</option>
-          <option value="Новости">Новости</option>
-           <option value="Галерея">Галерея</option>
-          <option value="Корзина">Корзина</option>-->
            </select>
+              </fieldset>
+
+           
           <button type="submit" class="filter-button button">Показать</button>
-        </form>
       </section>
          <span> Сортировать:</span>
           По цене
@@ -97,14 +89,14 @@
                   <li><img src="img/aplus.jpg" alt="A+" width="360" height="576"></li>
                   <li><img src="img/kvast.jpg" alt="кваст" width="360" height="576"></li>
                   </ul>
-                   <footer class="page-footer">
-                     <div class="contacts">
-                  <b>NЁRDS DESIGN STUDIO</b>
-                  <br>
+                    <footer class="page-footer">
+                    <div class="footer-contacts">
+                    <b>Nёrds design studio</b><br>
                   191186,Санкт-Петербург,ул.Б.Конюшенная,д.19/8
                   <br>
                       тел.+7(812)275-75-75
-                  <a class="btn" href="#">Напишите нам</a>
+                   </div>
+                  <button class="btn">Напишите нам</button>
                        <section class="letter">
                          <form>
                            <fieldset>
@@ -112,12 +104,16 @@
                           <p class="name">
             <label for="name">Ваше имя</label>
             <input id="name" type="text" name="name" value="" placeholder="Имя Фамилия">
+                             </p>
                              <p class="email">
             <label for="email">Ваше e-mail</label>
             <input id="email" type="text" name="email" value="" placeholder="email@example.com">
+                             </p>
                                <p class="letter-content">
             <label for="content">Текст письма</label>
             <input id="content" type="text" name="content" value="" placeholder="В свободной форме">
+                             </p>
+                                  <img src="close-cross.svg" alt="Закрыть">
                            </fieldset>
             <button class="button" type="submit">Отправить</button>
         </form>  
