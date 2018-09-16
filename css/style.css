@@ -468,7 +468,7 @@ address {
 
 .marker {
     position: absolute;
-    top: 1932px;
+    top: 100px;
     left: 820px;
 }
 
@@ -861,179 +861,52 @@ fieldset {
     background-color: rgba(238, 238, 238);
 }
 
-.sedonainfo {
+.info{
     position: absolute;
-    left: 540px;
-    top: 872px;
-    width: 360px;
-    height: 231px;
-    background-color: rgba(238, 238, 238);
-}
-
-.pinkinfo:hover{
-    display: block;
- position: absolute;
-    left: 940px;
-    top: 872px;
-    width: 360px;
-    height: 231px;
-    background-color: rgba(238, 238, 238);  
-    color: black;  
-}
-
-.pinkinfo{
- display: block;
- position: absolute;
-    left: 940px;
-    top: 872px;
-    width: 360px;
-    height: 231px;
+    display: none;
+    left: 40px;
+    bottom: 30px;
+    right:0px;
+    min-height: 231px;
     background-color: transparent;
-    color: transparent;      
-}
-
-.mishkainfo:hover{
- display: block;
- position: absolute;
-    left: 940px;
-    top: 1520px;
-    width: 360px;
-    height: 231px;
     background-color: rgba(238, 238, 238);
-    color:black;
-}
-
-.mishkainfo{
- display: block;
- position: absolute;
-    left: 940px;
-    top: 1520px;
-    width: 360px;
-    height: 231px;
-    background-color: transparent;
-    color: transparent;           
-}
-
-.barbershopinfo:hover{
-     display: block;
- position: absolute;
-    left: 540px;
-    top: 1520px;
-    width: 360px;
-    height: 231px;
-    background-color: rgba(238, 238, 238);
-    color: black;
-}
-
-.barbershopinfo{
-     display: block;
- position: absolute;
-    left: 540px;
-    top: 1520px;
-    width: 360px;
-    height: 231px;
-    background-color: transparent;
-    color: transparent; 
-        
-}
-.plusinfo:hover{
-    display: block;
- position: absolute;
-    left: 540px;
-    top: 2180px;
-    width: 360px;
-    height: 231px;
-    background-color: rgba(238, 238, 238);
-    color: black;
-}
-.plusinfo{
-    display: block;
- position: absolute;
-    left: 540px;
-    top: 2180px;
-    width: 360px;
-    height: 231px;
-   background-color: transparent;
-    color: transparent; 
-}
-.kvastinfo{
-display: block;
- position: absolute;
-    left: 940px;
-    top: 2180px;
-    width: 360px;
-    height: 231px;
-    background-color: transparent;
-    color: transparent;
 }   
 
-.kvastinfo:hover{
+.websites:hover .info{
      display: block;
- position: absolute;
-    left: 940px;
-    top: 2180px;
-    width: 360px;
-    height: 231px;
-    background-color: rgba(238, 238, 238); 
-    color: black;
 }
 
-.sedonainfo h2,
-.pinkinfo h2,
-.barbershopinfo h2,
-.mishkainfo h2,
-.plusinfo h2,
-.kvastinfo h2{
+.info h2{
     text-align: center;
     font-size: 18px;
     line-height: 28px;
     text-transform: uppercase;
     font-weight: bolder;
     margin-top: 28px;
-}
-
-.sedonainfo p,
-.pinkinfo p,
-.barbershopinfo p,
-.mishkainfo p,
-.plusinfo p,
-.kvastinfo p{
-    font-size: 16px;
-    line-height: 18px;
-    margin: 0 90px;
     text-align: center;
 }
 
-button.price:hover,
-button.price.sedonabutton{
-    display: block;
-    margin-left: 81px;
-    margin-top: 30px;
-    width: 200px;
-    height: 50px;
+.info p{
     font-size: 16px;
     line-height: 18px;
-    color: #ffffff;
-    text-transform: uppercase;
     text-align: center;
-    text-decoration: none;
-    background-color: #fb565a;
-    border-radius: 3px;
-    border: none;
+    padding: 0 40px;
 }
+
+
+
 button.price{
     display: block;
-    margin-left: 81px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 30px;
     width: 200px;
     height: 50px;
     font-size: 16px;
     line-height: 18px;
-    color: transparent;
     text-transform: uppercase;
     text-align: center;
     text-decoration: none;
-    background-color: transparent;
     border-radius: 3px;
     border: none;
 }
