@@ -146,6 +146,7 @@ ul {
     max-width: 430px;
     margin: 0;
     margin-bottom: 38px;
+    color:#283136;
 }
 
 .button {
@@ -201,7 +202,6 @@ ul {
     margin-top: 26px;
     width: 438px;
 }
-
 .basket {
     position: relative;
     margin-top: 27px;
@@ -260,6 +260,7 @@ ul {
 
 .service-item p {
     margin-right: 17px;
+     color:#283136;
 }
 
 .services a {
@@ -300,11 +301,14 @@ ul {
 
 .weare {
     margin-left: 140px;
-    margin-top: 73px;
+    margin-top: 43px;
     margin-right: 75px;
 }
 
-.servicestwo b {
+.weare p {
+    color:#283136;
+}
+.servicestwo h1 {
     font-size: 45px;
     line-height: 45px;
 }
@@ -318,8 +322,12 @@ ul {
     position: relative;
     line-height: 46px;
     list-style-type: none;
+    margin-top:14px;
 }
 
+.services2 li{
+    color:#283136;
+}
 .services2 li::before {
     content: "";
     position: absolute;
@@ -341,18 +349,23 @@ ul {
     text-transform: uppercase;
     margin-bottom: 16px;
     margin-left: 18px;
+    margin-top: 30px;
 }
 
 .year table {
     font-size: 16px;
     line-height: 18px;
     border-spacing: 0px;
+    margin-top: 25px;
 }
 
 .year tr:first-child {
     font-size: 45px;
     line-height: 66px;
     font-weight: bolder;
+}
+.year tr:nth-child(2){
+color:#283136;
 }
 
 .year td {
@@ -427,11 +440,12 @@ sup {
 .footer {
     font-size: 16px;
     line-height: 18px;
+    margin-bottom:70px;
 }
 
 .footer-contacts {
     position: absolute;
-    top: 50px;
+    top: 55px;
     left: 140px;
     width: 319px;
     height: 308px;
@@ -447,6 +461,7 @@ address {
     font-style: normal;
     margin-right: 60px;
     margin-bottom: 17px;
+    color:#666666;
 }
 
 .footer-contacts h2 {
@@ -460,15 +475,17 @@ address {
     padding-left: 0px;
     margin-right: 76px;
     margin-bottom: 22px;
+   
 }
 
 .footer-contacts p {
     margin-left: 51px;
+     color:#666666;
 }
 
 .marker {
     position: absolute;
-    top: 100px;
+    top: 90px;
     left: 820px;
 }
 
@@ -500,6 +517,7 @@ address {
 
 .footer-social p {
     margin-right: 69px;
+    color:#444444;
 }
 
 .social-btn {
@@ -525,7 +543,7 @@ address {
 }
 
 .social-btn:hover {
-    background-color: red;
+    background-color: #e74246;
 }
 
 .social-btn-facebook {
@@ -618,6 +636,7 @@ address {
     width: 50%;
     font-size: 16px;
     text-transform: uppercase;
+    color:#283136;
 }
 
 .price-controls input {
@@ -645,6 +664,7 @@ main.catalog {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 30px;
+    width:840px;
 }
 
 .websites img {
@@ -690,6 +710,7 @@ main.catalog {
 
 .footer-contactscatalog p {
     margin-left: 51px;
+    color:#666666;
 }
 
 .main-header2 h1 {
@@ -714,7 +735,7 @@ main.catalog {
     font-size: 14px;
     line-height: 18px;
     margin: 0 auto;
-    padding-left: 59px;
+    padding-left: 141px;
 }
 
 .sort1 {
@@ -722,6 +743,7 @@ main.catalog {
     align-items: center;
     margin-left: 80px;
     margin-top: 5px;
+    position: relative;
 }
 
 .sort li {
@@ -765,24 +787,26 @@ fieldset {
     padding-left: 0;
 }
 
-.filtergrid li {
-    margin: 9px 0px;
+.filtergrid div {
+    margin: 11px 0px;
     padding-left: 0px;
 }
 
 .feauteresmain {
-    margin-top: 28px;
+    margin-top: 34px;
     margin-bottom: 16px;
     padding-left: 0px;
     list-style: none;
     position: relative;
 }
 
-.feauteresmain ul {
+.featurescheckbox {
     padding-left: 0;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 
-.feauteresmain li {
+.featurescheckbox div {
     margin-bottom: 10px;
 }
 
@@ -790,6 +814,7 @@ fieldset {
     position: relative;
     display: block;
     padding-left: 35px;
+    color:#283136;
 }
 
 .filter-option [type="checkbox"]+label::before {
@@ -892,6 +917,7 @@ fieldset {
     padding: 0 60px;
      text-transform: none;
     font-weight: normal;
+    color:#666666;
 }
 
 button.price{
@@ -1024,8 +1050,8 @@ textarea {
 button.icon-up-dir {
     content: "";
     position: absolute;
-    left: 1285px;
-    top: 415px;
+    left:748px;
+    top:21px;
     width: 15px;
     height: 15px;
     background-image: url("../img/icon-up-dir.svg");
@@ -1037,13 +1063,14 @@ button.icon-up-dir {
 
 .page-footer {
     position: relative;
+    margin-bottom: 70px;
 }
 
 button.icon-down-dir {
     content: "";
     position: absolute;
-    left: 1257px;
-    top: 415px;
+    left: 720px;
+    top: 21px;
     width: 15px;
     height: 15px;
     background-image: url("../img/icon-down-dir.svg");
