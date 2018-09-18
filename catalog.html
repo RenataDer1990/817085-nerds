@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <title>HTML Academy: Нёрдс</title>
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+        <link href="css/normalize.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
@@ -42,49 +43,57 @@
                         </div>
                     </fieldset>
                 </form>
+                <section class="featurescatalog">
                 <h2 class="visually-hidden">Выберите сетку и необходимые особенности Вашего сайта</h2>
-                <fieldset class="grid">
+                <form method="get" action="https://echo.htmlacademy.ru">
+               <fieldset class="grid">
                     <legend>Сетка:</legend>
-                    <ul class="filtergrid">
-                        <li class="filter-option">
+                   <div class="filtergrid">
+                        <div class="filter-option">
                             <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="adaptive grid" id="filteradaptivegrid" checked>
                             <label for="filteradaptivegrid">Адаптивная</label>
-                        </li>
-                        <li class="filter-option">
+                        </div>
+                        <div class="filter-option">
                             <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="fixed grid" id="filterfixedgrid">
                             <label for="filterfixedgrid">Фиксированная</label>
-                        </li>
-                        <li class="filter-option">
+                        </div>
+                        <div class="filter-option">
                             <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="rubber grid" id="filterrubbergrid">
                             <label for="filterrubbergrid">Резиновая</label>
-                        </li>
-                    </ul>
-                </fieldset>
+                        </div>
+                       </div>
+                    </fieldset>
+                    </form>
+                </section>
+                <section class="featuresmaincatalog">
+                <form method="get" action="https://echo.htmlacademy.ru">
                 <fieldset class="feauteresmain">
                     <legend>Особенности:</legend>
-                    <ul>
-                        <li class="filter-option">
+                    <div class="featurescheckbox">
+                        <div class="filter-option">
                             <input type="checkbox" id="slider" name="slider" class="visually-hidden" checked>
                             <label for="slider">Слайдер</label>
-                        </li>
-                        <li class="filter-option">
+                        </div>
+                        <div class="filter-option">
                             <input type="checkbox" id="block" name="block" class="visually-hidden">
                             <label for="block"> Блок преимуществ</label>
-                        </li>
-                        <li class="filter-option">
+                        </div>
+                        <div class="filter-option">
                             <input type="checkbox" id="news" name="news" class="visually-hidden" checked>
                             <label for="news"> Новости</label>
-                        </li>
-                        <li class="filter-option">
+                        </div>
+                        <div class="filter-option">
                             <input type="checkbox" id="gallery" name="gallery" class="visually-hidden">
                             <label for="gallery"> Галерея</label>
-                        </li>
-                        <li class="filter-option">
+                        </div>
+                        <div class="filter-option">
                             <input type="checkbox" id="baskettwo" name="baskettwo" class="visually-hidden"> 
                             <label for="baskettwo"> Корзина</label>
-                        </li>
-                    </ul>
+                        </div>
+                </div>
                 </fieldset>
+                    </form> 
+                    </section>
                 <button type="submit" class="filter-button button">Показать</button>
             </div>
             <div class= "examples" >
