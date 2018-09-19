@@ -302,7 +302,7 @@ ul {
 .weare {
     margin-left: 140px;
     margin-top: 43px;
-    margin-right: 75px;
+    margin-right: 75px
 }
 
 .weare p {
@@ -460,7 +460,7 @@ address {
     margin-left: 51px;
     font-style: normal;
     margin-right: 60px;
-    margin-bottom: 17px;
+    margin-bottom: 16px;
     color:#666666;
 }
 
@@ -489,11 +489,12 @@ address {
     left: 820px;
 }
 
-.button.writeus {
-    margin-left: 51px;
-    margin-top: 33px;
+a.button.writeus {
+    display:block;
+    margin-left: 49px;
+    margin-top: 30px;
     width: 219px;
-    height: 50px;
+    height: 25px;
 }
 
 .modal-map {
@@ -528,6 +529,7 @@ address {
     background-color: #eeeeee;
     vertical-align: middle;
     border-radius: 50%;
+    
 }
 
 .icon {
@@ -590,7 +592,7 @@ address {
     padding-top: 39px;
     padding-right: 20px;
     padding-left: 20px;
-    background-color:rgba(238, 238, 238);
+    background-color:rgba(238, 238, 238, 1);
     border-radius: 5px;
 }
 
@@ -680,13 +682,13 @@ main.catalog {
 
 .markercatalog {
     position: absolute;
-    top: 86px;
+    top: 88px;
     left: 820px;
 }
 
 .footer-contactscatalog {
     position: absolute;
-    top: 50px;
+    top: 52px;
     left: 140px;
     width: 319px;
     height: 308px;
@@ -731,11 +733,11 @@ main.catalog {
     list-style-type: none;
     color: black;
     display: flex;
-    justify-content: flex-end;
     font-size: 14px;
     line-height: 18px;
     margin: 0 auto;
-    padding-left: 141px;
+    padding-left: 161px;
+    opacity:0.3; 
 }
 
 .sort1 {
@@ -747,7 +749,7 @@ main.catalog {
 }
 
 .sort li {
-    padding-right: 20px;
+    padding-right: 25px;
     position: relative;
 }
 
@@ -785,15 +787,16 @@ fieldset {
 
 .filtergrid {
     padding-left: 0;
+    margin-top:15px;
 }
 
 .filtergrid div {
-    margin: 11px 0px;
+   margin-bottom: 10px;
     padding-left: 0px;
 }
 
 .feauteresmain {
-    margin-top: 34px;
+    margin-top: 35px;
     margin-bottom: 16px;
     padding-left: 0px;
     list-style: none;
@@ -883,7 +886,7 @@ fieldset {
     text-align: center;
     text-decoration: none;
     border: none;
-    background-color: rgba(238, 238, 238);
+    background-color: rgba(238, 238, 238, 1);
 }
 
 .info{
@@ -893,7 +896,7 @@ fieldset {
     bottom: 30px;
     right:0px;
     min-height: 231px;
-    background-color: rgba(238, 238, 238);
+    background-color: rgba(238, 238, 238, 1);
 }   
 
 .websites:hover .info{
@@ -1051,7 +1054,7 @@ button.icon-up-dir {
     content: "";
     position: absolute;
     left:748px;
-    top:21px;
+    top:22px;
     width: 15px;
     height: 15px;
     background-image: url("../img/icon-up-dir.svg");
@@ -1059,6 +1062,7 @@ button.icon-up-dir {
     box-shadow: none;
     border: 0;
     background-repeat: no-repeat;
+    opacity: 0.3;
 }
 
 .page-footer {
@@ -1070,11 +1074,12 @@ button.icon-down-dir {
     content: "";
     position: absolute;
     left: 720px;
-    top: 21px;
+    top: 22px;
     width: 15px;
     height: 15px;
     background-image: url("../img/icon-down-dir.svg");
     background-color: transparent;
     background-repeat: no-repeat;
     border: 0;
+    opacity: 0.3;
 }
