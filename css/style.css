@@ -492,9 +492,9 @@ address {
 a.button.writeus {
     display:block;
     margin-left: 49px;
-    margin-top: 30px;
+    margin-top: 32px;
     width: 219px;
-    height: 25px;
+    height: 24px;
 }
 
 .modal-map {
@@ -507,6 +507,7 @@ a.button.writeus {
     font-size: 36px;
     line-height: 0px;
     margin-top: 27px;
+    margin-bottom: 26px;
 }
 
 .footer-social {
@@ -565,7 +566,7 @@ a.button.writeus {
     padding: 0;
     border: none;
     width: 260px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 .range-filter {
@@ -573,16 +574,20 @@ a.button.writeus {
     margin-top: 49px;
 }
 
-.filter-item legend,
-.examples p {
+.filter-item legend
+ {
     font-size: 18px;
     line-height: 24px;
+     letter-spacing: 0.01em;
     text-transform: uppercase;
     font-weight: 700;
 }
 
 .examples p {
+    font-size: 18px;
     line-height: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 .range-controls {
@@ -643,7 +648,7 @@ a.button.writeus {
 
 .price-controls input {
     width: 60px;
-    padding: 8px 10px;
+    padding: 9px;
     margin-left: 10px;
     font-family: Roboto, Arial, sans-serif;
     font-size: 16px;
@@ -725,7 +730,7 @@ main.catalog {
 }
 
 .filter-item {
-    margin-bottom: 63px;
+    margin-bottom: 60px;
 }
 
 .sort {
@@ -772,11 +777,6 @@ main.catalog {
     line-height: 16px;
 }
 
-.filtergrid {
-    position: relative;
-    line-height: 30px;
-}
-
 fieldset {
     border: 0 none;
 }
@@ -786,8 +786,10 @@ fieldset {
 }
 
 .filtergrid {
+    position: relative;
+    line-height: 30px;
     padding-left: 0;
-    margin-top:15px;
+    margin-top:14px;
 }
 
 .filtergrid div {
@@ -796,7 +798,7 @@ fieldset {
 }
 
 .feauteresmain {
-    margin-top: 35px;
+    margin-top: 36px;
     margin-bottom: 16px;
     padding-left: 0px;
     list-style: none;
@@ -1067,7 +1069,7 @@ button.icon-up-dir {
 
 .page-footer {
     position: relative;
-    margin-bottom: 70px;
+    padding-bottom: 70px;
 }
 
 button.icon-down-dir {
